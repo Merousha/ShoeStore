@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\main_navigation.xml","javaFiles":["com.udacity.shoestore.login.FragmentLoginDirections","com.udacity.shoestore.welcome.WelcomeFragmentDirections","com.udacity.shoestore.instructions.InstructionsFragmentDirections","com.udacity.shoestore.shoeList.ShoeListFragmentDirections","com.udacity.shoestore.shoeList.ShoeDetailFragmentDirections"]}]

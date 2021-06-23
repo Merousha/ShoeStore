@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pastel_pink"
+        tools:context=".welcome.WelcomeFragment">
+
+        <ImageView
+            android:id="@+id/flower"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_flower"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/WelcomeTitle"
+            style="@style/TextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/welcome_title"
+            app:layout_constraintBottom_toTopOf="@id/WelcomeText"
+            app:layout_constraintTop_toBottomOf="@+id/flower"
+            tools:layout_editor_absoluteY="50dp" />
+
+        <TextView
+            android:id="@+id/WelcomeText"
+            style="@style/TextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_text"
+            app:layout_constraintBottom_toTopOf="@id/buttonInstructions"
+            app:layout_constraintTop_toBottomOf="@id/WelcomeTitle" />
+
+        <Button
+            android:id="@+id/buttonInstructions"
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/buttonMargin"
+            android:background="@drawable/button_style"
+            android:text="@string/instructions"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/WelcomeText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
