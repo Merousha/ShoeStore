@@ -25,7 +25,7 @@ class ShoeListViewModel() : ViewModel() {
 
 
     /**
-     * Shoe function called directly from SAVE button
+     * Add shoe function that will be called from SAVE button
      */
     fun addNewShoe(name: String, size: Double, company: String, desc: String) {
         val newShoe = Shoe(name, size, company, desc)

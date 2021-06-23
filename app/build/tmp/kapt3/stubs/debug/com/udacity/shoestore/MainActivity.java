@@ -33,6 +33,9 @@ public final class MainActivity extends androidx.appcompat.app.AppCompatActivity
         return false;
     }
     
+    /**
+     * Function that "logs out"  a user. It simply redirects the user to the login fragment.
+     */
     private final void logout() {
     }
     

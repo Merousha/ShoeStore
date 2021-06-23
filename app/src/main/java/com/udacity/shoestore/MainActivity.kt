@@ -63,6 +63,9 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
+    /**
+     * Function that "logs out"  a user. It simply redirects the user to the login fragment.
+     */
     private fun logout() {
         val navController = this.findNavController(R.id.myNavHostFragment)
         navController.navigate(R.id.loginFragment)

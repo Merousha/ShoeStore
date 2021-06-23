@@ -11,16 +11,24 @@
 
     </data>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/salmon">
+
     <!--    Using constraint layout to align all of the various elements of the item list-->
     <!--    Not using linear layout because it will be more complex-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/pastel_pink">
+        android:layout_margin="@dimen/layout_margin">
 
         <TextView
             android:id="@+id/text_view_name"
-            style="@style/TextViewStyle"
+            style="@style/TextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -30,7 +38,7 @@
 
         <TextView
             android:id="@+id/text_view_company"
-            style="@style/TextViewStyle"
+            style="@style/TextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +47,7 @@
 
         <TextView
             android:id="@+id/text_view_size"
-            style="@style/TextViewStyle"
+            style="@style/TextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -49,7 +57,7 @@
 
         <TextView
             android:id="@+id/textViewSizeLabel"
-            style="@style/TextViewStyle"
+            style="@style/TextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBaseline_toBaselineOf="@+id/text_view_company"
@@ -58,7 +66,7 @@
 
         <TextView
             android:id="@+id/text_view_description"
-            style="@style/TextViewStyle"
+            style="@style/TextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
@@ -67,4 +75,5 @@
             tools:text="description of the shoe place holder." />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 </layout>

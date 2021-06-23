@@ -22,7 +22,7 @@ public class ShoeItemBindingImpl extends ShoeItemBinding  {
     }
     // views
     @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
+    private final androidx.cardview.widget.CardView mboundView0;
     // variables
     // values
     // listeners
@@ -39,7 +39,7 @@ public class ShoeItemBindingImpl extends ShoeItemBinding  {
             , (android.widget.TextView) bindings[3]
             , (android.widget.TextView) bindings[4]
             );
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0 = (androidx.cardview.widget.CardView) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners

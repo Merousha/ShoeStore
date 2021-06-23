@@ -27,8 +27,6 @@ class WelcomeFragment : Fragment() {
             findNavController().navigate(R.id.instructionsFragment)
         }
 
-        setHasOptionsMenu(false)
-
         return binding.root
     }
 

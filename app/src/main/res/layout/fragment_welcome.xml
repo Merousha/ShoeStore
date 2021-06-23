@@ -21,7 +21,7 @@
 
         <TextView
             android:id="@+id/WelcomeTitle"
-            style="@style/TextViewStyle"
+            style="@style/TextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -32,7 +32,7 @@
 
         <TextView
             android:id="@+id/WelcomeText"
-            style="@style/TextViewStyle"
+            style="@style/TextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/welcome_text"
@@ -41,7 +41,7 @@
 
         <Button
             android:id="@+id/buttonInstructions"
-            style="@style/TextViewStyle"
+            style="@style/TextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/buttonMargin"

@@ -72,6 +72,10 @@ class ShoeListFragment : Fragment() {
                 )
 
                 //Add new layout item for the last shoe entry
+                //we can easily define horizontal/vertical orientation to LinearLayout
+                //programmatically and add child views therefore I have chosen to use Linear Layout here
+                //With ConstraintLayout the added views must be constrained therefore a lot more complex
+                //and a lot more code.
                 shoeLayoutBinding.textViewCompany.text = it.company
                 shoeLayoutBinding.textViewName.text = it.name
                 shoeLayoutBinding.textViewSize.text = it.size.toString()

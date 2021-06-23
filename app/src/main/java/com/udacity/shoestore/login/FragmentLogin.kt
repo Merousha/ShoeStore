@@ -35,8 +35,6 @@ class FragmentLogin : Fragment() {
             findNavController().navigate(R.id.welcomeFragment)
         }
 
-        setHasOptionsMenu(false)
-
         return binding.root
     }
 

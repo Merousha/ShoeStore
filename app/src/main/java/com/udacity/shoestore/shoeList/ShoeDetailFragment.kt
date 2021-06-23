@@ -31,8 +31,6 @@ class ShoeDetailFragment : Fragment() {
 
         addShoe()
 
-        setHasOptionsMenu(false)
-
         binding.shoeListViewModel = viewModel
         return binding.root
     }
